@@ -102,4 +102,9 @@ After that You will see the running IP adress just copy and paste into you brows
   <img width="800" src="https://user-images.githubusercontent.com/74568334/140288962-c13eb0fc-f0e8-44f9-a9f7-eaa823c61e63.png">
 </p>
 
+<h2 align="center"> Conclusion </h2>
+
+<p style= 'text-align: justify;'> BERT pre-trained model is the best attention model for the NLP. Here, BERT works well with text for sentiment analysis but Its model weight is a little bigger than other NLP models.</p>
+
+
 
