@@ -1,5 +1,7 @@
 <h2 align="center"> Sentiments-Classifier-using-BERT</h2>
 
+<h3 align="center"> IMDB - Movie Reviews-using-BERT</h3>
+
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/140315545-de6e357e-a0fa-43e2-891f-44afe6baf2ba.png">
 </p> 
