@@ -42,6 +42,13 @@ This is a dataset for binary sentiment classification containing substantially m
 
 For Dataset Please click [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/version/1)
 
+
+<h2 align="center"> Process - Flow for This project </h2>
+
+<p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/140325153-43b7c157-f8be-4c81-a37a-b780816e55bc.jpeg">
+</p> 
+
 <h2 align="center"> 🚀 Installation For  Application Sentiments-Classifier-using-BERT </h2>
 
 1. Clone the repo
