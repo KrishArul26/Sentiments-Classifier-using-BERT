@@ -91,7 +91,7 @@ Type the following command:
 python app.py
 
 ```
-After that You will see the running IP adress just copy and paste into you browser and import or upload your speech then closk the predict button.
+After that You will see the running IP adress just copy and paste into you browser and import or upload your speech then click the predict button.
 
 <h2 align="center"> 🔑 Results </h2>
 
