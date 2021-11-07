@@ -23,7 +23,7 @@
  2. BERT - Pre-Trained Model
  3. GPU - P-4000
  4. Google Colab - Text Analysis
- 5. Flas- Fast API
+ 5. Flask- Fast API
  6. Postman - API Tester
  7. TensorFlow - Hub - Convert to the Tokenizer
  ```
