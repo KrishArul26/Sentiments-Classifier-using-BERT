@@ -93,6 +93,67 @@ python app.py
 ```
 After that You will see the running IP adress just copy and paste into you browser and import or upload your speech then click the predict button.
 
+
+<h2 align="center"> Folder Structure </h2>
+
+<h4 align="left"> In this section, contains the project directory, explanation of each python file presents in the directory.  </h2>
+
+
+<h3 align="left">1. Project Directory</h3>
+
+
+<h4 align="left"> Below picture illustrate the complete folder structure of this project.</h4>
+
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140577934-92f60e0d-c905-478e-be62-638bd6a7ad82.png">
+</p> 
+
+
+<h3 align="left">2. preprocess.py </h3>
+
+<p style= 'text-align: justify;'> Below picture illustrate the preprocess.py file, It does the necessary text cleaning process such as removing punctuation, numbers, lemmatization. And it will create train_preprocessed, validation_preprocessed and test_preprocessed pickle files for the further analysis.</p>
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140578710-2b346932-32c8-4f60-b9bf-b79fbb4fbf10.png">
+</p> 
+
+<h3 align="left">3. word_embedder_gensim.py </h3>
+
+<p style= 'text-align: justify;'> Below picture illustrate the word_embedder_gensim.py, After done with text pre-processing, this file will take those cleaned text as input and will be creating the Word2vec embedding for each word.</p>
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140579065-79a7e215-1f8f-4715-816c-0247d007a520.png">
+</p> 
+
+
+<h3 align="left">4. rnn_w2v.py </h3>
+
+<p style= 'text-align: justify;'>Below picture illustrate the rnn_w2v.py, After done with creating Word2vec for each word then those vectors will use as input for creating the LSTM model and Train the LSTM (RNN) model with body and Classes. </p>
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140579999-d0ae2ac4-74bc-460d-82eb-3ee7cbb40a73.png">
+</p> 
+
+<h3 align="left">5. index.htmml </h3>
+
+<p style= 'text-align: justify;'>Below picture illustrate the index.html file, these files use to create the web frame for us. </p>
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140581823-b9f8a43a-e317-4e18-b895-0983d905cb60.png">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/140581821-30aca256-6442-4b0e-8e29-9bef67f2d118.png">
+ 
+</p> 
+
+
+<h3 align="left">6. main.py </h3>
+<p style= 'text-align: justify;'> Below picture illustrate the main.py, After evaluating the LSTM model, This files will create the Rest -API, To that It will use FLASK frameworks and get the request from the customer or client then It will Post into the prediction files and Answer will be deliver over the web browser.   </p>
+
+<p align="center">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140581040-86b02b9a-fb8c-4f10-9ebf-03e05573f7a6.png">
+ 
+</p> 
+
 <h2 align="center"> 🔑 Results </h2>
 
 
