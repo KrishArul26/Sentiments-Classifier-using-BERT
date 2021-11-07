@@ -102,55 +102,45 @@ After that You will see the running IP adress just copy and paste into you brows
 <h3 align="left">1. Project Directory</h3>
 
 
-<h4 align="left"> Below picture illustrate the complete folder structure of this project.</h4>
-
-
-<p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/74568334/140577934-92f60e0d-c905-478e-be62-638bd6a7ad82.png">
-</p> 
-
-
-<h3 align="left">2. preprocess.py </h3>
-
-<p style= 'text-align: justify;'> Below picture illustrate the preprocess.py file, It does the necessary text cleaning process such as removing punctuation, numbers, lemmatization. And it will create train_preprocessed, validation_preprocessed and test_preprocessed pickle files for the further analysis.</p>
+<h4 align="left"> Below picture illustrate the complete folder structure of this project. This folder will keep the model that have been trained on the
+ dataset using BERT architecture.</h4>
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/74568334/140578710-2b346932-32c8-4f60-b9bf-b79fbb4fbf10.png">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140644137-c4f60ebf-a10f-4830-8495-06f645aedc1f.png">
 </p> 
 
-<h3 align="left">3. word_embedder_gensim.py </h3>
+<h3 align="left">2. trainMovieRev.py </h3>
 
-<p style= 'text-align: justify;'> Below picture illustrate the word_embedder_gensim.py, After done with text pre-processing, this file will take those cleaned text as input and will be creating the Word2vec embedding for each word.</p>
+<p style= 'text-align: justify;'> The following image illustrates the file trainMovieRev.py. It does the necessary text cleanup, such as removing punctuation and numbers. And it creates tokenizers from the TnsorFlo - Hub Bert model. These tokenizers are padded according to the specified length. Finally, the BERT model is trained using the train dataset.</p>
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/74568334/140579065-79a7e215-1f8f-4715-816c-0247d007a520.png">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140644134-907b1eae-6f4f-4389-898c-9a2072177ab8.png">
 </p> 
 
+<h3 align="left">3. prediction File.py </h3>
 
-<h3 align="left">4. rnn_w2v.py </h3>
-
-<p style= 'text-align: justify;'>Below picture illustrate the rnn_w2v.py, After done with creating Word2vec for each word then those vectors will use as input for creating the LSTM model and Train the LSTM (RNN) model with body and Classes. </p>
+<p style= 'text-align: justify;'> Below picture illustrate the prediction File.py, After done with train the BERT model, This file processes the test data in the same way as the training data and will predict the test data.</p>
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/74568334/140579999-d0ae2ac4-74bc-460d-82eb-3ee7cbb40a73.png">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140644141-98fdb449-401c-4904-872c-0239ba291e8b.png">
 </p> 
+
 
 <h3 align="left">5. index.htmml </h3>
 
 <p style= 'text-align: justify;'>Below picture illustrate the index.html file, these files use to create the web frame for us. </p>
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/74568334/140581823-b9f8a43a-e317-4e18-b895-0983d905cb60.png">
-  <img width="600" src="https://user-images.githubusercontent.com/74568334/140581821-30aca256-6442-4b0e-8e29-9bef67f2d118.png">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140644139-effba2f6-9217-4a5a-ab48-e19f2bb309f6.png"
  
 </p> 
 
 
 <h3 align="left">6. main.py </h3>
-<p style= 'text-align: justify;'> Below picture illustrate the main.py, After evaluating the LSTM model, This files will create the Rest -API, To that It will use FLASK frameworks and get the request from the customer or client then It will Post into the prediction files and Answer will be deliver over the web browser.   </p>
+<p style= 'text-align: justify;'> The following image illustrates picture illustrate the main.py. After evaluating the model BERT, this file creates the rest - API. To do this, it uses FLASK frameworks and receives the request from the client. Then it is posted to the prediction files and the response is delivered through the web browser. </p>
 
 <p align="center">
-  <img width="400" src="https://user-images.githubusercontent.com/74568334/140581040-86b02b9a-fb8c-4f10-9ebf-03e05573f7a6.png">
+  <img width="400" src="https://user-images.githubusercontent.com/74568334/140644140-f5769f83-a48f-44d5-a7a0-f9539d0ded5c.png">
  
 </p> 
 
@@ -161,16 +151,9 @@ After that You will see the running IP adress just copy and paste into you brows
 <h4 align="Left"> Result - 1 </h4>
 
  <p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/74568334/140320085-08d15e68-fa17-4207-aff9-d751ab51d1ef.png">
+  <img width="800" src="https://user-images.githubusercontent.com/74568334/140644146-d71a9b20-8370-4798-b972-df94da0fe3b7.png">
 </p>
 
-
-
-<h4 align="Left"> Result - 2 </h4>
-
-<p align="center">
-  <img width="800" src="https://user-images.githubusercontent.com/74568334/140329890-72d738d9-6838-4235-9c0b-86f6673bbbd2.png">
-</p>
 
 <h2 align="center"> Conclusion </h2>
 
