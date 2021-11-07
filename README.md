@@ -109,9 +109,9 @@ After that You will see the running IP adress just copy and paste into you brows
   <img width="400" src="https://user-images.githubusercontent.com/74568334/140644137-c4f60ebf-a10f-4830-8495-06f645aedc1f.png">
 </p> 
 
-<h3 align="left">2. trainMovieRev.py </h3>
+<h3 align="left">2. train_bert_model.py </h3>
 
-<p style= 'text-align: justify;'> The following image illustrates the file trainMovieRev.py. It does the necessary text cleanup, such as removing punctuation and numbers. And it creates tokenizers from the TnsorFlo - Hub Bert model. These tokenizers are padded according to the specified length. Finally, the BERT model is trained using the train dataset.</p>
+<p style= 'text-align: justify;'> The following image illustrates the file train_model_bert.py. It does the necessary text cleanup, such as removing punctuation and numbers. And it creates tokenizers from the TnsorFlo - Hub Bert model. These tokenizers are padded according to the specified length. Finally, the BERT model is trained using the train dataset.</p>
 
 <p align="center">
   <img width="400" src="https://user-images.githubusercontent.com/74568334/140644134-907b1eae-6f4f-4389-898c-9a2072177ab8.png">
